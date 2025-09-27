@@ -48,7 +48,7 @@ class QConfig(
     :meth:`~.QATModule.set_qconfig`.
     
     Usually we choose narrow version dtype (like ``qint8_narrow``) for weight related
-    paramters and normal version for activation related ones. For the result of
+    parameters and normal version for activation related ones. For the result of
     multiplication and addition as ``a * b + c * d``, if four variables are all -128 of
     dtype ``qint8``, then the result will be ``2^15`` and cause overflow.
     Weights are commonly calculated in this way, so need to narrow qmin to -127.

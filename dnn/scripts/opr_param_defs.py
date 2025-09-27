@@ -1338,8 +1338,8 @@ PADDING_MODES = [Doc('REPLICATE = 0', 'aaaaaa|abcdefgh|hhhhhhh'),
  )
 
 (pdef('LAMBUpdate').
- add_fields('float32', Doc('beta_1', 'beta_1 paramter of lamb'), '1.f').
- add_fields('float32', Doc('beta_2', 'beta_2 paramter of lamb'), '1.f').
+ add_fields('float32', Doc('beta_1', 'beta_1 parameter of lamb'), '1.f').
+ add_fields('float32', Doc('beta_2', 'beta_2 parameter of lamb'), '1.f').
  add_fields('float32', Doc('step', 'training step'), '1.f').
  add_fields('float32', Doc('lr', 'learning rate'), '1.f').
  add_fields('float32', Doc('weight_decay', 'weight decay to adjust learning rate'), '1.f').

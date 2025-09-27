@@ -154,7 +154,7 @@ class PReLU(Module):
         \end{cases}
 
     Here :math:`a` is a learnable parameter. When called without arguments, `PReLU()` uses
-    a single paramter :math:`a` across all input channel. If called with `PReLU(num_of_channels)`, each input channle will has it's own :math:`a`.
+    a single parameter :math:`a` across all input channel. If called with `PReLU(num_of_channels)`, each input channle will has it's own :math:`a`.
 
     Args:
         num_parameters: number of :math:`a` to learn, there is only two

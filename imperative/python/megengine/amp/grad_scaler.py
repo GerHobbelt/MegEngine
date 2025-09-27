@@ -285,7 +285,7 @@ class Xla_GradScaler(GradScaler):
         )
 
     def update(self, model, new_scale: float = None):
-        r"""Update the scale factor and model paramters according to whether encountered overflow grad.
+        r"""Update the scale factor and model parameters according to whether encountered overflow grad.
         If ``new_scale`` is provided, internal update mechanism will be ignored.
         """
         if self.growth_interval == 0:

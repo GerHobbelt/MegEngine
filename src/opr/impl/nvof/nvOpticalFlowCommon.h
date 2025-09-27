@@ -219,7 +219,7 @@ typedef enum _NV_OF_OUTPUT_VECTOR_GRID_SIZE {
 } NV_OF_OUTPUT_VECTOR_GRID_SIZE;
 
 /**
- * Expected grid size for optional paramater ::NV_OF_EXECUTE_PARAMS::externalHints
+ * Expected grid size for optional parameter ::NV_OF_EXECUTE_PARAMS::externalHints
  * buffer. Client should set ::NV_OF_INIT_PARAMS::hintGridSize with
  * ::NV_OF_HINT_VECTOR_GRID_SIZE values.
  */
@@ -503,7 +503,7 @@ typedef NV_OF_STATUS(NVOFAPI* PFNNVOFINIT)(
  * This is asynchronous function call which kicks off computation of optical flow or
  * stereo disparity between ::NV_OF_EXECUTE_INPUT_PARAMS::inputFrame and
  * ::NV_OF_EXECUTE_INPUT_PARAMS::referenceFrame and returns after submitting  execute
- * paramaters to optical flow engine.
+ * parameters to optical flow engine.
  * ::NV_OF_EXECUTE_OUTPUT_PARAMS::outputBuffer will be populated with optical flow or
  * stereo disparity based on ::NV_OF_INIT_PARAMS:mode is NV_OF_MODE_OPTICALFLOW or
  * NV_OF_MODE_STEREODISPARITY respectively.
